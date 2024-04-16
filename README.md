@@ -50,6 +50,7 @@ Huffman coding is a widely used method for lossless data compression. The algori
      ```
      - Replace `absolute_path_to_input_file` with the absolute path to the file you want to compress.
      - Replace `n` with the number of bytes to consider together during compression.
+   - A newly created file will appear in the same directory of the original file represent the compressed file.
 
 3. **Run Decompression:**
    - To decompress a file, open a terminal or command prompt and navigate to the directory containing the `Huffman.jar` file.
@@ -58,6 +59,7 @@ Huffman coding is a widely used method for lossless data compression. The algori
      java -jar Huffman.jar d absolute_path_to_input_file
      ```
      - Replace `absolute_path_to_input_file` with the absolute path to the compressed file you want to decompress.
+   - A newly created file will appear in the same directory of the compressed file represent the decompressed file.
 
 4. **View Compression and Decompression Statistics:**
 Upon Compression and Decompression you can see different statistics about the  file to help you choose the best number of bytes grouped for compression `n` as compressed and decompressed times and compression ratio.
