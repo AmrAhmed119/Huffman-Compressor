@@ -62,7 +62,7 @@ Huffman coding is a widely used method for lossless data compression. The algori
 4. **View Compression and Decompression Statistics:**
 Upon Compression and Decompression you can see different statistics about the  file to help you choose the best number of bytes grouped for compression `n` as compressed and decompressed times and compression ratio.
 
-**Compression ratio is calculated as the ratio of the compressed file size to the original file size**   
+- **Compression ratio is calculated as the ratio of the compressed file size to the original file size**   
 By following these steps, you can effectively use Huffman compression and decompression for lossless data compression of arbitrary files, considering different values of `n` to optimize compression ratios and processing times.
 
 **Thanks for reading! If you have any further questions feel free to let me know.**
